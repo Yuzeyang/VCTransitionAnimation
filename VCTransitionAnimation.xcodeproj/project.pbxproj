@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B5A90881BEA4C3100D3CD71 /* VCVertTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5A90871BEA4C3100D3CD71 /* VCVertTransitionAnimation.m */; };
 		5BCA03891BE794D600B36B53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA03881BE794D600B36B53 /* main.m */; };
 		5BCA038C1BE794D600B36B53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA038B1BE794D600B36B53 /* AppDelegate.m */; };
 		5BCA038F1BE794D600B36B53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA038E1BE794D600B36B53 /* ViewController.m */; };
@@ -16,8 +15,9 @@
 		5BCA03971BE794D600B36B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA03951BE794D600B36B53 /* LaunchScreen.storyboard */; };
 		5BCA03A21BE794D700B36B53 /* VCTransitionAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA03A11BE794D700B36B53 /* VCTransitionAnimationTests.m */; };
 		5BCA03AD1BE794D700B36B53 /* VCTransitionAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA03AC1BE794D700B36B53 /* VCTransitionAnimationUITests.m */; };
-		5BCA03BC1BE7956000B36B53 /* VCTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA03BB1BE7956000B36B53 /* VCTransitionAnimation.m */; };
 		5BCA03BF1BE84B8000B36B53 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA03BE1BE84B8000B36B53 /* SecondViewController.m */; };
+		5BCAFCD91D27F99100DB289F /* VCTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAFCD61D27F99100DB289F /* VCTransitionAnimation.m */; };
+		5BCAFCDA1D27F99100DB289F /* VCVertTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAFCD81D27F99100DB289F /* VCVertTransitionAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B5A90861BEA4C3100D3CD71 /* VCVertTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCVertTransitionAnimation.h; sourceTree = "<group>"; };
-		5B5A90871BEA4C3100D3CD71 /* VCVertTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCVertTransitionAnimation.m; sourceTree = "<group>"; };
 		5BCA03841BE794D600B36B53 /* VCTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCA03881BE794D600B36B53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BCA038A1BE794D600B36B53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,10 +54,12 @@
 		5BCA03A81BE794D700B36B53 /* VCTransitionAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCTransitionAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BCA03AC1BE794D700B36B53 /* VCTransitionAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCTransitionAnimationUITests.m; sourceTree = "<group>"; };
 		5BCA03AE1BE794D700B36B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BCA03BA1BE7956000B36B53 /* VCTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTransitionAnimation.h; sourceTree = "<group>"; };
-		5BCA03BB1BE7956000B36B53 /* VCTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTransitionAnimation.m; sourceTree = "<group>"; };
 		5BCA03BD1BE84B8000B36B53 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		5BCA03BE1BE84B8000B36B53 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5BCAFCD51D27F99100DB289F /* VCTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTransitionAnimation.h; sourceTree = "<group>"; };
+		5BCAFCD61D27F99100DB289F /* VCTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTransitionAnimation.m; sourceTree = "<group>"; };
+		5BCAFCD71D27F99100DB289F /* VCVertTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCVertTransitionAnimation.h; sourceTree = "<group>"; };
+		5BCAFCD81D27F99100DB289F /* VCVertTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCVertTransitionAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +116,7 @@
 				5BCA038E1BE794D600B36B53 /* ViewController.m */,
 				5BCA03BD1BE84B8000B36B53 /* SecondViewController.h */,
 				5BCA03BE1BE84B8000B36B53 /* SecondViewController.m */,
-				5BCA03BA1BE7956000B36B53 /* VCTransitionAnimation.h */,
-				5BCA03BB1BE7956000B36B53 /* VCTransitionAnimation.m */,
-				5B5A90861BEA4C3100D3CD71 /* VCVertTransitionAnimation.h */,
-				5B5A90871BEA4C3100D3CD71 /* VCVertTransitionAnimation.m */,
+				5BCAFCD41D27F99100DB289F /* VCTransitionAnimation */,
 				5BCA03901BE794D600B36B53 /* Main.storyboard */,
 				5BCA03931BE794D600B36B53 /* Assets.xcassets */,
 				5BCA03951BE794D600B36B53 /* LaunchScreen.storyboard */,
@@ -153,6 +150,17 @@
 				5BCA03AE1BE794D700B36B53 /* Info.plist */,
 			);
 			path = VCTransitionAnimationUITests;
+			sourceTree = "<group>";
+		};
+		5BCAFCD41D27F99100DB289F /* VCTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5BCAFCD51D27F99100DB289F /* VCTransitionAnimation.h */,
+				5BCAFCD61D27F99100DB289F /* VCTransitionAnimation.m */,
+				5BCAFCD71D27F99100DB289F /* VCVertTransitionAnimation.h */,
+				5BCAFCD81D27F99100DB289F /* VCVertTransitionAnimation.m */,
+			);
+			path = VCTransitionAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +295,9 @@
 			files = (
 				5BCA03BF1BE84B8000B36B53 /* SecondViewController.m in Sources */,
 				5BCA038F1BE794D600B36B53 /* ViewController.m in Sources */,
+				5BCAFCD91D27F99100DB289F /* VCTransitionAnimation.m in Sources */,
+				5BCAFCDA1D27F99100DB289F /* VCVertTransitionAnimation.m in Sources */,
 				5BCA038C1BE794D600B36B53 /* AppDelegate.m in Sources */,
-				5B5A90881BEA4C3100D3CD71 /* VCVertTransitionAnimation.m in Sources */,
-				5BCA03BC1BE7956000B36B53 /* VCTransitionAnimation.m in Sources */,
 				5BCA03891BE794D600B36B53 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
